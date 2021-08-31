@@ -8,3 +8,9 @@ body {
 .row, input{
     margin-bottom: 10px;
 }
+.btn{
+    margin-bottom: 20px;
+}
+.description{
+    text-shadow: 1px 1px 2px black;
+}

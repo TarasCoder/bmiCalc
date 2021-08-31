@@ -22,6 +22,7 @@
   </head>
   <body>
     <div class="container">
+      <form>
       <div class="row">
         <div class="col text-center">
           <h1 class="display-1">It is BMI calculator</h1>
@@ -30,23 +31,29 @@
 
       <div class="row inputs justify-content-center">
         <div class="col-6">
-          <input type="number" id="weightInput" class="form-control" placeholder="65"/>
-          <input type="number" id="heightInput" class="form-control" placeholder="1.8"/>
+          <input type="number" id="weightInput" class="form-control" placeholder="Weight in kg's. Example: 65"/>
+          <input type="number" id="heightInput" class="form-control" placeholder="Height in cm's. Example: 1.8"/>
         </div>
       </div>
 
       <div class="row justify-content-center">
         <div class="col-6 text-center">
-          <button id="checkBtn" class="btn btn-primary btn-lg">Check!</button>
+          <button id="checkBtn" class="btn btn-primary btn-lg" type="submit">Check!</button>
         </div>  
       </div>
 
       <div class="row result justify-content-center">
         <div class="col-6 text-center">
-          <h1 id="result" class="display-3"></h1>
+          <h2 id="resultBMI" class="display-3"></h2>
         </div>
       </div>
 
+      <div class="row result justify-content-center">
+        <div class="col-6 text-center">
+          <h2 id="resultDescription" class="display-3 description"></h2>
+        </div>
+      </div>
+      </form>
     </div>
     <script src="app.js"></script>
   </body>
